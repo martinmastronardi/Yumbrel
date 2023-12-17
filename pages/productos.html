@@ -4,89 +4,114 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;400;600&display=swap" rel="stylesheet">
+
   <title>Yumbrel</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;400;600&display=swap" rel="stylesheet">
 </head>
 
 
 <body>
 
   <!--banner principal-->
-  <header>
-    <a href="../index.html">
-      <img src="../img/Logo.jpg" alt="Logo Yumbrel">
-    </a>
-    <!--menu de navegacion-->
-    <nav>
-      <ul id="MenuPrincipal">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../pages/quienessomos.html">Quienes Somos</a></li>
-        <li><a href="../pages/productos.html">Productos</a></li>
-        <li><a href="../pages/preguntas.html">Preguntas Frecuentes</a></li>
-        <li><a href="../pages/contactenos.html">Contactenos</a></li>
-      </ul>
-    </nav>
-    <a href="../index.html">
-      <img src="../img/Logo.jpg" alt="Logo Yumbrel">
+  <header class="navbar navbar-expand-lg navbar-light bg-light navbar-expand-sm">
+    <a class="navbar-brand" href="../index.html">
+      <img src="../img/Logo.jpg" alt="Logo Yumbrel" class="img-fluid">
     </a>
 
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- menu navbar -->
+    <div class="collapse navbar-collapse justify-content-center text-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/quienessomos.html">Quienes Somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/productos.html">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/preguntas.html">Preguntas Frecuentes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/contactenos.html">Contactenos</a>
+        </li>
+      </ul>
+    </div>
+    <a class="navbar-brand" href="../index.html">
+      <img src="../img/Logo.jpg" alt="Logo Yumbrel" class="img-fluid">
+    </a>
   </header>
 
   <!--contenido principal-->
   <!-- acomodar ubicacion de imagenes -->
   <main>
     <section>
-    <h2>KIT HUMITO SAGRADO</h2>
-    <div id="carouselKitHumito" class="carousel slide">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselKitHumito" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselKitHumito" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselKitHumito" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="d-flex">
-            <img src="../img/Kit humito sagrado/Screenshot_20220716-115250_Google.jpg" class="d-block" alt="humo 1">
-            <img src="../img/Kit humito sagrado/Screenshot_20220716-115538_Instagram.jpg" class="d-block" alt="humo 2">
-            <img src="../img/Kit humito sagrado/Screenshot_20220716-120003_Google.jpg" class="d-block" alt="humo 3">
+      <h2>KIT HUMITO SAGRADO</h2>
+      <div id="carouselKitHumito" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselKitHumito" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselKitHumito" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselKitHumito" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex">
+              <img src="../img/Kit humito sagrado/Screenshot_20220716-115250_Google.jpg" class="d-block" alt="humo 1">
+              <img src="../img/Kit humito sagrado/Screenshot_20220716-115538_Instagram.jpg" class="d-block"
+                alt="humo 2">
+              <img src="../img/Kit humito sagrado/Screenshot_20220716-120003_Google.jpg" class="d-block" alt="humo 3">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex">
+              <img src="../img/Kit humito sagrado/Screenshot_20220716-120019_Google.jpg" class="d-block" alt="humo 4">
+              <img src="../img/Kit humito sagrado/Screenshot_20230401-195211_Instagram.jpg" class="d-block"
+                alt="humo 5">
+              <img src="../img/Kit humito sagrado/Screenshot_20230323-094654_Instagram.jpg" class="d-block"
+                alt="humo 6">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex">
+              <img src="../img/Kit humito sagrado/Screenshot_20230401-200208_Instagram.jpg" class="d-block "
+                alt="humo 7">
+              <img src="../img/Kit humito sagrado/Screenshot_20230401-195219_Instagram.jpg" class="d-block "
+                alt="humo 8">
+              <img src="../img/Kit humito sagrado/Screenshot_20230401-200202_Instagram.jpg" class="d-block "
+                alt="humo 9">
+            </div>
           </div>
         </div>
-        <div class="carousel-item">
-          <div class="d-flex">
-            <img src="../img/Kit humito sagrado/Screenshot_20220716-120019_Google.jpg" class="d-block" alt="humo 4">
-            <img src="../img/Kit humito sagrado/Screenshot_20230401-195211_Instagram.jpg" class="d-block" alt="humo 5">
-            <img src="../img/Kit humito sagrado/Screenshot_20230323-094654_Instagram.jpg" class="d-block" alt="humo 6">
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="d-flex">
-            <img src="../img/Kit humito sagrado/Screenshot_20230401-200208_Instagram.jpg" class="d-block " alt="humo 7">
-            <img src="../img/Kit humito sagrado/Screenshot_20230401-195219_Instagram.jpg" class="d-block " alt="humo 8">
-            <img src="../img/Kit humito sagrado/Screenshot_20230401-200202_Instagram.jpg" class="d-block " alt="humo 9">
-          </div>
-        </div> 
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselKitHumito" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselKitHumito" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselKitHumito" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselKitHumito" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-  </section>
+    </section>
     <!---------------------------------------------------------------------------------------------  -->
     <section>
       <h2>PIEDRAS ENERGETICAS</h2>
       <div id="carouselPiedrasEnergeticas" class="carousel slide">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselPiedrasEnergeticas" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselPiedrasEnergeticas" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselPiedrasEnergeticas" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselPiedrasEnergeticas" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselPiedrasEnergeticas" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselPiedrasEnergeticas" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -111,60 +136,75 @@
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPiedrasEnergeticas" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselPiedrasEnergeticas"
+          data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselPiedrasEnergeticas" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselPiedrasEnergeticas"
+          data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
     </section>
-  
-      <!---------------------------------------------------------------------------------------------  -->
-      <section>
-        <h2>SAHUMERIOS AROMANZA</h2>
-        <div id="carouselSahumeriosAromanza" class="carousel slide">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselSahumeriosAromanza" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselSahumeriosAromanza" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselSahumeriosAromanza" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="d-flex">
-                <img src="../img/Sahumerios Aromanza/20220716_131124_mfnr.jpg" class="d-block" alt="piedra 1">
-                <img src="../img/Sahumerios Aromanza/Screenshot_20220716-140957_Google.jpg" class="d-block" alt="piedra 2">
-                <img src="../img/Sahumerios Aromanza/Screenshot_20220716-141022_Google.jpg" class="d-block" alt="piedras 3">
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="d-flex">
-                <img src="../img/Sahumerios Aromanza/Screenshot_20220514-171936_Instagram.jpg" class="d-block" alt="piedra 4">
-                <img src="../img/Sahumerios Aromanza/Screenshot_20220625-174723_Google.jpg" class="d-block" alt="piedra 5">
-                <img src="../img/Sahumerios Aromanza/Screenshot_20220716-131625_Instagram.jpg" class="d-block" alt="piedra 6">
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="d-flex">
-                <img src="../img/Sahumerios Aromanza/Screenshot_20220716-131641_Instagram.jpg" class="d-block" alt="piedra 7">
-                <img src="../img/Sahumerios Aromanza/Screenshot_20220716-131652_Instagram.jpg" class="d-block" alt="piedra 8">
-                <img src="../img/Sahumerios Aromanza/Screenshot_20220716-140945_Google.jpg" class="d-block" alt="piedra 9">
-              </div>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselSahumeriosAromanza" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselSahumeriosAromanza" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+
+    <!---------------------------------------------------------------------------------------------  -->
+    <section>
+      <h2>SAHUMERIOS AROMANZA</h2>
+      <div id="carouselSahumeriosAromanza" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselSahumeriosAromanza" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselSahumeriosAromanza" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselSahumeriosAromanza" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
         </div>
-      </section>
-  
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex">
+              <img src="../img/Sahumerios Aromanza/20220716_131124_mfnr.jpg" class="d-block" alt="piedra 1">
+              <img src="../img/Sahumerios Aromanza/Screenshot_20220716-140957_Google.jpg" class="d-block"
+                alt="piedra 2">
+              <img src="../img/Sahumerios Aromanza/Screenshot_20220716-141022_Google.jpg" class="d-block"
+                alt="piedras 3">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex">
+              <img src="../img/Sahumerios Aromanza/Screenshot_20220514-171936_Instagram.jpg" class="d-block"
+                alt="piedra 4">
+              <img src="../img/Sahumerios Aromanza/Screenshot_20220625-174723_Google.jpg" class="d-block"
+                alt="piedra 5">
+              <img src="../img/Sahumerios Aromanza/Screenshot_20220716-131625_Instagram.jpg" class="d-block"
+                alt="piedra 6">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex">
+              <img src="../img/Sahumerios Aromanza/Screenshot_20220716-131641_Instagram.jpg" class="d-block"
+                alt="piedra 7">
+              <img src="../img/Sahumerios Aromanza/Screenshot_20220716-131652_Instagram.jpg" class="d-block"
+                alt="piedra 8">
+              <img src="../img/Sahumerios Aromanza/Screenshot_20220716-140945_Google.jpg" class="d-block"
+                alt="piedra 9">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselSahumeriosAromanza"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselSahumeriosAromanza"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
   </main>
 
   <!--pie de pagina-->

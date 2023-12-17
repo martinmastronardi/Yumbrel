@@ -38,21 +38,10 @@ header img {
 
     height: 80px;
     width: 80px;
-    border: 3px solid rgb(105, 3, 95);
     margin-top: 1.5%;
     margin-left: 2px;
-    margin-right: 2px;
 }
 
-.izquierda {
-
-    height: 80px;
-    width: 80px;
-    border: 3px solid rgb(105, 3, 95);
-    margin-top: 1.5%;
-    margin-left: 2px;
-    margin-right: 2px;
-}
 
 header {
     background-color: #DCBFFF;
@@ -65,45 +54,20 @@ header {
 }
 
 /* -----------------------------------------------------NAV----------------------------------------------------- */
-nav {
-    /* background: linear-gradient(to bottom, #edb4eb 0%, #f4b0dc 49%, #f791e4 51%, #ffd8ff 100%); */
-    width: 60%;
-
-
-}
-
-
-nav ul li a:hover {
-
+.navbar-nav .nav-link:hover {
     background-color: rgba(0, 0, 0, 0.10);
-    padding: 10%;
+    padding: 8px; 
+    
 }
 
-
-nav ul {
-    list-style-type: none;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+.nav-item {
+    padding: 15px;
 
 }
-
-nav ul li {
-    flex-grow: 1;
-    text-decoration: solid;
+.navbar-brand {
+    margin-left: 10px;
+    margin-right: 10px;
 }
-
-nav ul li a {
-    color: black;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: solid;
-    display: block;
-
-}
-
 
 /* -----------------------------------------------------banner----------------------------------------------------- */
 .banner {
