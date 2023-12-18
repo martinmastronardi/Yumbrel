@@ -29,13 +29,14 @@ html {
 
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
     background-image: url(../img/paisley.webp);
 }
+
 /*----------------------------------------------------- HEADER -----------------------------------------------------*/
 
 header img {
@@ -45,7 +46,6 @@ header img {
     margin-top: 1.5%;
     margin-left: 2px;
 }
-
 
 header {
     background-color: #DCBFFF;
@@ -60,14 +60,15 @@ header {
 /* -----------------------------------------------------NAV----------------------------------------------------- */
 .navbar-nav .nav-link:hover {
     background-color: rgba(0, 0, 0, 0.10);
-    padding: 8px; 
-    
+    padding: 8px;
+
 }
 
 .nav-item {
     padding: 15px;
 
 }
+
 .navbar-brand {
     margin-left: 10px;
     margin-right: 10px;
@@ -81,14 +82,14 @@ header {
     background-position: center;
     height: 400px;
     text-align: center;
-
+    margin-top: 5%;
 
 }
 
 .banner h1 {
     color: #ccc;
     text-shadow: 4px 4px 2px rgba(32, 10, 10, 0.6);
-    margin: 0px;
+    margin: 2%;
     padding-top: 20px;
 }
 
@@ -99,9 +100,15 @@ header {
 }
 
 /* -----------------------------------------------------SECCION PRODUCTOS----------------------------------------------------- */
-main h2{
+.bienvenido{
+    margin: 2%;
     text-align: center;
-    
+    font-size: 20px;
+}
+
+main h2 {
+    text-align: center;
+
 }
 
 .MuestraProductos {
@@ -127,9 +134,10 @@ main h2{
 }
 
 .img-container {
-    width: 200px; 
-    height: 200px; 
-  }
+    width: 200px;
+    height: 200px;
+}
+
 /* -----------------------------------------------------PRODUCTOS----------------------------------------------------- */
 .piedras img {
     width: 300px;
@@ -154,15 +162,16 @@ main h2{
 }
 
 /* -----------------------------------------------------CAROUSEL----------------------------------------------------- */
-.carousel img{
-  width: 500px;
-  height: 300px;
-  margin-right: 5px;
-  margin-left: 5px;
+.carousel img {
+    width: 500px;
+    height: 300px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
+
 /* -----------------------------------------------------CONTACTENOS----------------------------------------------------*/
 .formulario {
-    
+
     text-align: center;
     height: 70%;
     width: 70%;
@@ -171,21 +180,21 @@ main h2{
     border: 1px solid rgb(59, 35, 35);
     background-color: #970a7d85;
     border-radius: 10px;
-   
+
 }
 
-.OtrasVias{
+.OtrasVias {
     height: 70%;
     width: 70%;
     padding: 10px;
     margin: 10px;
     border: 1px solid rgb(59, 35, 35);
     background-color: #970a7d85;
-    border-radius: 10px; 
+    border-radius: 10px;
 }
 
 
- /* -----------------------------------------------------FOOTER----------------------------------------------------*/
+/* -----------------------------------------------------FOOTER----------------------------------------------------*/
 footer {
     background-color: #ccc;
     clear: both;
@@ -200,14 +209,15 @@ footer {
 
 
 }
-.logofooter{
+
+.logofooter {
     background-color: blue;
     height: 60px;
     width: 60px;
     margin-top: 2px;
 }
 
-.logofooter a{
+.logofooter a {
     height: 60px;
     width: 60px;
     padding: auto;
@@ -222,7 +232,7 @@ footer img {
 
 footer p {
     color: rgb(5, 6, 6);
-text-align: center;    
+    text-align: center;
     padding-top: 30px;
 }
 
@@ -230,36 +240,32 @@ text-align: center;
 
 /*--------------------------------------------- Regla media query-------------------------------------- */
 /*---------------------------------------------   Mobile  --------------------------------------------- */
-@media only screen and (max-width: 480px) {
-   header{
-    flex-direction: column;
-    
-}
- .izquierda{
-    display: none;
-}
-header img{
-    margin-left: 40%;
+/* @media only screen and (max-width: 480px) {
+} */
+
+@media only screen and (max-width: 600px) {
+
+    img.img-fluid.logo-grande {
+        height: 50px;
+        width: 50px;
+    }
+
+    .banner {
+        margin-top: 15%;
+    }
+
+    main p {
+        margin: 5%;
+    }
 }
 
-}
-
-.MuestraProductos div{
-  width: auto;
+.MuestraProductos div {
+    width: auto;
 }
 
 
 /* ---------------------------------------------tablet ---------------------------------------------*/
-@media only screen and (min-width: 501px) and (max-width: 960px) {
-    body{
-        background-color: yellow;
-    }
-}
+@media only screen and (min-width: 501px) and (max-width: 960px) {}
 
 /* ---------------------------------------------PC--------------------------------------------- */
-@media only screen and (min-width: 961px) {
-    body{
-        background-color: green;
-    }
-}
-
+@media only screen and (min-width: 961px) {}
