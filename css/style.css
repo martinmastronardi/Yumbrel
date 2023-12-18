@@ -169,6 +169,7 @@ main h2 {
     margin-left: 5px;
 }
 
+
 /* -----------------------------------------------------CONTACTENOS----------------------------------------------------*/
 .formulario {
 
@@ -292,11 +293,14 @@ footer p {
     .descripcion {
         margin-top: 20%;
         text-align: center;
+        margin-left: 2%;
+        margin-right: 2%;
     }
 
     .preguntas {
         margin-top: 20%;
         text-align: center;
+        
     }
 
 
@@ -309,7 +313,12 @@ footer p {
 .humito{
     margin-top:15%;
 }  
-
+.carousel img {
+    width: 200px;
+    height: 200px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
 }
 
 /* ---------------------------------------------tablet ---------------------------------------------*/
