@@ -169,6 +169,15 @@ main h2 {
     margin-left: 5px;
 }
 
+.container-muestrario{
+    margin-top: 7%;
+}
+
+.muestrario{
+    background-color: #970a7d85;
+    margin: 1%;
+    padding: 1%;
+}
 
 /* -----------------------------------------------------CONTACTENOS----------------------------------------------------*/
 .formulario {
@@ -193,7 +202,8 @@ main h2 {
     background-color: #970a7d85;
     border-radius: 10px;
 }
-#contactenos{
+
+#contactenos {
     margin-top: 7%;
 }
 
@@ -202,16 +212,18 @@ main h2 {
 .descripcion {
     margin-top: 8%;
     text-align: center;
-    margin-left: 100px;  
+    margin-left: 100px;
     margin-right: 100px;
-    
+
 }
+
 /* -----------------------------------------------------CONTACTENOS----------------------------------------------------*/
-.preguntas{
+.preguntas {
     margin-top: 6%;
     text-align: center;
 
 }
+
 .preguntas li {
     text-align: center;
     font-style: italic;
@@ -223,8 +235,9 @@ main h2 {
 }
 
 .preguntas p {
-    margin-top: 2% ;
+    margin-top: 2%;
 }
+
 /* -----------------------------------------------------FOOTER----------------------------------------------------*/
 footer {
     background-color: #ccc;
@@ -300,25 +313,37 @@ footer p {
     .preguntas {
         margin-top: 20%;
         text-align: center;
-        
+
     }
 
 
     .MuestraProductos div {
         width: auto;
     }
-    #contactenos{
-    margin-top: 20%;
+
+    #contactenos {
+        margin-top: 20%;
     }
-.humito{
-    margin-top:15%;
-}  
-.carousel img {
-    width: 200px;
-    height: 200px;
-    margin-right: 5px;
-    margin-left: 5px;
-}
+
+    .container-muestrario {
+        margin-top: 7%;
+        margin-bottom: 2px;
+    }
+
+    .carousel img {
+        width: 190px;
+        height: 200px;
+        margin-right: 1px;
+        margin-left: 1px;
+    }
+
+    .muestrario{
+        margin-top: 8%;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    
 }
 
 /* ---------------------------------------------tablet ---------------------------------------------*/
