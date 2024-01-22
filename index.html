@@ -6,11 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
+    <!-- animate.style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-   <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;400;600&display=swap" rel="stylesheet">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="./css/estilos.css">
     <link rel="stylesheet" href="./css/normalize.css">
+
     <title>Yumbrel</title>
 </head>
 
@@ -52,28 +61,29 @@
     </header>
     <!-- Banner -->
     <section class="banner">
-        <h1>Yumbrel Energia Positiva</h1>
-        <h2>Piedras Energeticas y Bijouterie</h2>
+        <h1 class="animate__animated animate__backInLeft">Yumbrel Energia Positiva</h1>
+        <h2 class="animate__animated animate__backInRight">Piedras Energeticas y Bijouterie</h2>
     </section>
 
     <!--contenido principal-->
     <main>
-        <p class="bienvenido">¡Bienvenido a <strong>Yumbrel</strong>, tu aliado en el camino hacia la paz y la energía positiva! Te
+        <p class="bienvenido">¡Bienvenido a <strong>Yumbrel</strong>, tu aliado en el camino hacia la paz y la energía
+            positiva! Te
             invitamos a explorar nuestra tienda y descubrir todo lo que tenemos para ofrecerte.
         </p>
 
         <h2>Alguno de nuestros productos</h2>
         <div class="MuestraProductos">
 
-            <div>
+            <div data-aos="zoom-in-right">
                 <img src="./img/Collares.webp" alt="Collares">
                 <p>Collares de Piedras</p>
             </div>
-            <div>
+            <div data-aos="zoom-in-up">
                 <img src="./img/Cascadas.webp" alt="CascadasHumo">
                 <p>Cascadas de Humo</p>
             </div>
-            <div>
+            <div data-aos="zoom-in-left">
                 <img src="./img/s4.webp" alt="Sahumerios">
                 <p>Sahumerios</p>
             </div>
@@ -93,14 +103,18 @@
             </a>
         </div>
         <p>Creado por Martin Mastronardi - &copy;2023</p>
-                    <a href="#">
-                <img class="logofooter" src="img/Logo.jpg" alt="Logo Yumbrel">
-            </a>
-        
+        <a href="#">
+            <img class="logofooter" src="img/Logo.jpg" alt="Logo Yumbrel">
+        </a>
+
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 

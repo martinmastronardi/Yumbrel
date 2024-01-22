@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
-<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;400;600&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilos.css">
     <title>Yumbrel</title>
 </head>
 
@@ -24,7 +26,7 @@
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        
+
         <div class="collapse navbar-collapse justify-content-center text-center" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
@@ -50,15 +52,15 @@
     </header>
 
     <!--contenido principal-->
-    <main  id = "contactenos" class="container d-flex flex-column justify-content-center align-items-center ">
-        <section class="formulario">
+    <main id="contactenos" class="container d-flex flex-column justify-content-center align-items-center ">
+        <section class="formulario" data-aos="flip-left">
             <div>
                 <h2>Contacto Rapido</h2>
                 <form>
                     <div class="mb-3">
                         <label for="nombre" class="form-label">Nombre</label>
                         <input type="nombre" class="form-control" id="nombres" aria-describedby="Nombre">
-                        
+
                     </div>
                     <div class="mb-3">
                         <label for="Email" class="form-label">Correo</label>
@@ -67,18 +69,19 @@
                     <div class="mb-3">
                         <label for="mensaje" class="form-label">Deje su mensaje aqui</label>
                         <textarea class="form-control" id="mensj" rows="3"></textarea>
-                      
+
                     </div>
                     <button type="submit" class="btn" style="background-color: #E5D4FF;">Enviar</button>
                 </form>
             </div>
         </section>
-        
-        <section class="OtrasVias">
+
+        <section class="OtrasVias" data-aos="flip-down">
             <h2>Otras vias de comunicacion</h2>
             <p>Tambien puede contactarse con nosotros usando los siguientes medios</p>
             <ul>
-                <li>Telefono: <a href="https://wa.me/541565890485/?text=Hola%20me%20comunico%20de%20la%20página%20web" target="_blank">1565890485</a></li>
+                <li>Telefono: <a href="https://wa.me/541565890485/?text=Hola%20me%20comunico%20de%20la%20página%20web"
+                        target="_blank">1565890485</a></li>
                 <li>Email: mari_sol_19@hotmail.com.ar</li>
                 <li>Instagram: <a href="https://www.instagram.com/yumbrel_energiapositiva/"
                         target="_blank">yumbrel_energiapositiva</a></li>
@@ -88,26 +91,30 @@
         </section>
     </main>
 
-  <!--pie de pagina-->
+    <!--pie de pagina-->
 
-  <footer>
-    <div class="redes">
-      <a href="https://www.instagram.com/yumbrel_energiapositiva/" target="_blank">
-        <img src="../img/instagramPNG.webp" alt="instagram">
-      </a>
-      <a href="https://wa.me/541565890485/?text=Hola%20me%20comunico%20de%20la%20página%20web" target="_blank">
-        <img src="../img/whats.png" alt="whatsapp">
-      </a>
-    </div>
-    <p>Creado por Martin Mastronardi - &copy;2023</p>
-    <a href="#">
-      <img class="logofooter" src="../img/Logo.jpg" alt="Logo Yumbrel">
-    </a>
+    <footer>
+        <div class="redes">
+            <a href="https://www.instagram.com/yumbrel_energiapositiva/" target="_blank">
+                <img src="../img/instagramPNG.webp" alt="instagram">
+            </a>
+            <a href="https://wa.me/541565890485/?text=Hola%20me%20comunico%20de%20la%20página%20web" target="_blank">
+                <img src="../img/whats.png" alt="whatsapp">
+            </a>
+        </div>
+        <p>Creado por Martin Mastronardi - &copy;2023</p>
+        <a href="#">
+            <img class="logofooter" src="../img/Logo.jpg" alt="Logo Yumbrel">
+        </a>
 
-  </footer>
+    </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>
