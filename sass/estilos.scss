@@ -103,12 +103,11 @@ main h2 {
 }
 /* -----------------------------------------------------CAROUSEL----------------------------------------------------- */
 .carousel img {
-    width: 500px;
+    width: 476px;
     height: 300px;
     margin-right: 5px;
     margin-left: 5px;
 }
-
 
 .muestrario{
     background-color: $color-oscuro;
@@ -116,6 +115,9 @@ main h2 {
     padding: 1%;
 }
 
+// .d-flex {
+//     justify-content: space-evenly;
+// }
 /* -----------------------------------------------------CONTACTENOS----------------------------------------------------*/
 .formulario {
 
