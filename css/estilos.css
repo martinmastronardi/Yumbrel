@@ -17,6 +17,7 @@ body {
   min-height: 100vh;
   margin: 0;
   background-image: url(../img/paisley.webp);
+  background-repeat: repeat;
 }
 
 /*----------------------------------------------------- HEADER -----------------------------------------------------*/
@@ -232,6 +233,9 @@ footer p {
 /* @media only screen and (max-width: 480px) {
 } */
 @media only screen and (min-width: 360px) and (max-width: 600px) {
+  html, body {
+    overflow-x: hidden;
+  }
   img.img-fluid.logo-grande {
     height: 50px;
     width: 50px;
