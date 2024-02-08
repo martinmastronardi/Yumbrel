@@ -4,18 +4,14 @@
 } */
 
 @media only screen and (min-width: 360px) and (max-width: 600px) {
-header {
-    margin: 1px;
-}
+
 
     img.img-fluid.logo-grande {
         height: 50px;
         width: 50px;
     }
 
-    .banner {
-        margin-top: 19%;
-    }
+   
 
     main p {
         margin: 5%;
@@ -23,15 +19,15 @@ header {
 
 
     .descripcion {
-        margin-top: 25%;
+        margin-top: 5%;
         text-align: center;
         margin-left: 2%;
         margin-right: 2%;
     }
 
     .preguntas {
-        margin-top: 25%;
-        text-align: center;
+        margin: 5%;
+       
 
     }
 
@@ -40,13 +36,9 @@ header {
         width: auto;
     }
 
-    #contactenos {
-        margin-top: 20%;
-    }
-
     .container-muestrario {
-        margin-top: 15%;
-        margin-bottom: 2px;
+         margin-bottom: 2px;
+         
     }
 
     .d-flex {
@@ -60,13 +52,7 @@ header {
         margin-left: 3px;
     }
 
-    .muestrario{
-        margin-top: 8%;
-        padding: 10px;
-        margin-bottom: 10px;
-    }
-
-    
+       
 }
 
 /* ---------------------------------------------tablet ---------------------------------------------*/

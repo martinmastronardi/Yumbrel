@@ -28,6 +28,7 @@ header {
   background: linear-gradient(to bottom, #edb4eb 0%, #f4b0dc 49%, #f791e4 51%, #ffd8ff 100%);
   position: sticky;
   top: 0;
+  width: 100%;
 }
 header img {
   height: 80px;
@@ -59,7 +60,7 @@ header img {
   background-position: center;
   height: 400px;
   text-align: center;
-  margin-top: 6%;
+  margin-top: 1%;
 }
 .banner h1 {
   color: #ccc;
@@ -133,10 +134,6 @@ main h2 {
   margin-left: 5px;
 }
 
-.container-muestrario {
-  margin-top: 7%;
-}
-
 .muestrario {
   background-color: rgba(151, 10, 125, 0.5215686275);
   margin: 1%;
@@ -166,12 +163,12 @@ main h2 {
 }
 
 #contactenos {
-  margin-top: 7%;
+  margin-top: 1%;
 }
 
 /* -----------------------------------------------------QUIENES SOMOS----------------------------------------------------*/
 .descripcion {
-  margin-top: 8%;
+  margin-top: 1%;
   text-align: center;
   margin-left: 100px;
   margin-right: 100px;
@@ -179,7 +176,7 @@ main h2 {
 
 /* -----------------------------------------------------CONTACTENOS----------------------------------------------------*/
 .preguntas {
-  margin-top: 6%;
+  margin-top: 2%;
   text-align: center;
 }
 .preguntas li {
@@ -235,37 +232,26 @@ footer p {
 /* @media only screen and (max-width: 480px) {
 } */
 @media only screen and (min-width: 360px) and (max-width: 600px) {
-  header {
-    margin: 1px;
-  }
   img.img-fluid.logo-grande {
     height: 50px;
     width: 50px;
-  }
-  .banner {
-    margin-top: 19%;
   }
   main p {
     margin: 5%;
   }
   .descripcion {
-    margin-top: 25%;
+    margin-top: 5%;
     text-align: center;
     margin-left: 2%;
     margin-right: 2%;
   }
   .preguntas {
-    margin-top: 25%;
-    text-align: center;
+    margin: 5%;
   }
   .MuestraProductos div {
     width: auto;
   }
-  #contactenos {
-    margin-top: 20%;
-  }
   .container-muestrario {
-    margin-top: 15%;
     margin-bottom: 2px;
   }
   .d-flex {
@@ -276,11 +262,6 @@ footer p {
     height: 160px;
     margin-right: 3px;
     margin-left: 3px;
-  }
-  .muestrario {
-    margin-top: 8%;
-    padding: 10px;
-    margin-bottom: 10px;
   }
 }
 /* ---------------------------------------------tablet ---------------------------------------------*/
