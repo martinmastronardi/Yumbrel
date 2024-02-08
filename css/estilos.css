@@ -59,7 +59,7 @@ header img {
   background-position: center;
   height: 400px;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 6%;
 }
 .banner h1 {
   color: #ccc;
@@ -234,25 +234,28 @@ footer p {
 /*---------------------------------------------   Mobile  --------------------------------------------- */
 /* @media only screen and (max-width: 480px) {
 } */
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 360px) and (max-width: 600px) {
+  header {
+    margin: 1px;
+  }
   img.img-fluid.logo-grande {
     height: 50px;
     width: 50px;
   }
   .banner {
-    margin-top: 15%;
+    margin-top: 19%;
   }
   main p {
     margin: 5%;
   }
   .descripcion {
-    margin-top: 20%;
+    margin-top: 25%;
     text-align: center;
     margin-left: 2%;
     margin-right: 2%;
   }
   .preguntas {
-    margin-top: 20%;
+    margin-top: 25%;
     text-align: center;
   }
   .MuestraProductos div {
@@ -262,14 +265,17 @@ footer p {
     margin-top: 20%;
   }
   .container-muestrario {
-    margin-top: 7%;
+    margin-top: 15%;
     margin-bottom: 2px;
   }
+  .d-flex {
+    justify-content: center;
+  }
   .carousel img {
-    width: 190px;
-    height: 200px;
-    margin-right: 1px;
-    margin-left: 1px;
+    width: 160px;
+    height: 160px;
+    margin-right: 3px;
+    margin-left: 3px;
   }
   .muestrario {
     margin-top: 8%;
